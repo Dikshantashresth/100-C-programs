@@ -21,11 +21,9 @@ int main() {
     
     // Prompting user for input
     printf("Enter a string: ");
-    scanf("%s", s);  // No '&' needed for strings
+    scanf("%s", s);  
 
     int len = strlen(s);
-    
-    // Proper printf format
     printf("%s\n", palindrome(s, len));
 
     return 0;
